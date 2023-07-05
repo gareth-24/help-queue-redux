@@ -9,7 +9,7 @@ import './index.css';
 import App from './components/App';
 import reportWebVitals from './reportWebVitals';
 
-const store = createStore(reducer);
+const store = createStore(rootReducer);
 store.subscribe(() =>
   console.log(store.getState())
 );
