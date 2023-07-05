@@ -2,7 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
-import reducer from './reducers/ticket-list-reducer';
+// import reducer from './reducers/ticket-list-reducer';
+// note: all reducers are now imported through rootReducer file
+import rootReducer from './reducers/index';
 import './index.css';
 import App from './components/App';
 import reportWebVitals from './reportWebVitals';
